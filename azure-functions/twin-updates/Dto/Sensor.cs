@@ -1,11 +1,10 @@
-﻿using Microsoft.Azure.Amqp.Framing;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace TwinUpdatesSample.Dto
 {
-    public class Room
+    class Sensor
     {
         public string id { get; set; }
     }
